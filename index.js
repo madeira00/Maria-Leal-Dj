@@ -45,6 +45,6 @@ client.on("interactionCreate", async (interaction) => {
     interaction.editReply(`🎶 A tocar: **${search[0].title}**`);
   }
 });
-
 client.login(process.env.TOKEN);
+
 
